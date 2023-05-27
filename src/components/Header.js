@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import { LOGO_URL } from '../utils/constants';
 
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
         <Container className="NavContainer">
           <Navbar.Brand href="#home">
             <img
-                src="https://t3.ftcdn.net/jpg/01/57/25/66/360_F_157256626_RrWboSjxyV9dm8Q9CpaDaeqbb2IaIyTZ.jpg"
+                src={LOGO_URL}
                 width="100"
                 height="100"
                 

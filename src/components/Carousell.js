@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import PipeObj from './PipeObj';
+import PipeObj from '../utils/mockData';
 
 
 const PipeCardGroup = (props) => {
