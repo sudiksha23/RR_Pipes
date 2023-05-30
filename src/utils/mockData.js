@@ -36,7 +36,7 @@ const PipeObj= [
         costPerPipe:"10",
         ppb:150,
         costPerBundle:100,
-        image:"https://2.wlimg.com/product_images/bc-full/2022/2/2038102/2--1644036-1644036529_6188097_1504427.jpg"
+        image:"https://img.freepik.com/premium-photo/blue-pvc-pipes-stacked-isolated-white-background-3d-illustration_394271-2721.jpg"
     },
     {
         id:4,
@@ -126,7 +126,7 @@ const PipeObj= [
         id:12,
         name:"SWR Pipes and Fittings",
         desc:"SWR Pipes and Fittings",
-        category:"PVC",
+        category:"SWR",
         class:"LMS",
         size:"10mm",
         costPerPipe:"10",
@@ -138,7 +138,7 @@ const PipeObj= [
         id:13,
         name:"PVC Agri Pipes",
         desc:"PVC Agri Pipes",
-        category:"PVC",
+        category:"AGRI",
         class:"LMS",
         size:"10mm",
         costPerPipe:"10",
@@ -150,7 +150,7 @@ const PipeObj= [
         id:14,
         name:"UPVC Plumbing Pipes",
         desc:"UPVC Plumbing Pipes",
-        category:"PVC",
+        category:"UPVC",
         class:"LMS",
         size:"12mm",
         costPerPipe:"10",
