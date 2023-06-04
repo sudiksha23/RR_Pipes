@@ -1,7 +1,13 @@
 import Container from 'react-bootstrap/Container';
-
-const TextCompany = () => {
+import Carousell from './Carousell';
+import Header from './Header';
+import Footer
+ from './Footer';
+const Home = () => {
     return (
+    <>
+    <Header/>
+    <Carousell/>
     <Container className="textContainer">
     <h1 className="textHeading">Ridam Radiant Plasto LLP.</h1>
     <p >RR Pipes is a nationally reputed pipe manufacturing company that specialises in premium quality polymer pipes and fittings. </p>
@@ -14,7 +20,9 @@ const TextCompany = () => {
     
     <p>And it all comes down to one thing: Quality.</p>
     </Container>
+    <Footer/>
+    </>
     );
 }
 
-export default TextCompany
+export default Home

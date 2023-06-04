@@ -16,8 +16,8 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
   import PipeObj from '../utils/mockData';
 import { useEffect, useState } from 'react';
-
-
+import Header from './Header';
+import Footer from './Footer';
 
 const IndividualCard = (props) => {
     const {pipeData}=props;
@@ -49,9 +49,10 @@ const Product = () => {
         pipeList=PipeObj 
         console.log("useEffect called "+ pipeList.length)
     },pipeList)
-    
+
     return (
-        <div>
+        <>
+            <Header/>
             <ButtonGroup className="ButtonGroup">
                 <Button variant='info'
                     onClick={()=>{
@@ -61,7 +62,7 @@ const Product = () => {
                         setPipeList(filteredPipeList)
                     }}
                 >SWR Pipes</Button>
-                <Button variant='dark'
+                  <Button variant='dark'
                     onClick={()=>{
                         const filteredPipeList = pipeList.filter(
                             (filterPipe) => filterPipe.category=="AGRI"
@@ -127,7 +128,8 @@ const Product = () => {
                     
                 }
             </MDBRow>
-        </div>
+            <Footer/>
+        </>
       );
 }
 export default Product

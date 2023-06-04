@@ -19,9 +19,9 @@ const Header = () => {
                 
             </Navbar.Brand>
           <Nav variant="tabs" defaultActiveKey="#home">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#products">Products</Nav.Link>
-            <Nav.Link href="#enquiry">Enquiry</Nav.Link>
+            <Nav.Link href="home">Home</Nav.Link>
+            <Nav.Link href="products">Products</Nav.Link>
+            <Nav.Link href="enquiry">Enquiry</Nav.Link>
            
           </Nav>
          
