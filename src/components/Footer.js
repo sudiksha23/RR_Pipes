@@ -54,22 +54,18 @@ const Footer= () => {
   
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <BiMap className="mb-4 " size={30}/>
-              <h6 className='text-uppercase fw-bold mb-4'>Address</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Works & Admin</h6>
               <p>
-              <TbBuildingFactory2 className="me-2"/> Sector 3, Pithampur
+              <TbBuildingFactory2 className="me-2"/> 106, Sector 3 Industrial Area, Pithampur (M.P.) 454775
               </p>
-              <p>
-               <AiFillHome className="me-2"/>Home : Kodariya
-              </p>
+             
             </MDBCol>
-  
-          
   
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
               <AiOutlineMail className="mb-4 " size={30}/>
               <h6 className='text-uppercase fw-bold mb-4'>Email Address</h6>
               <p>
-                naman9agrawal@gmail.com
+                ridamradiantplasto@gmail.com
               </p>
             </MDBCol>
           </MDBRow>
@@ -77,7 +73,7 @@ const Footer= () => {
       </section>
   
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-       <p> © 2023 Copyright: Ridam Radiant</p>
+       <p> © 2023 Copyright: Ridam Radiant Plasto LLP</p>
        <p> Made with <BsFillBalloonHeartFill/> in India</p>
         
       </div>

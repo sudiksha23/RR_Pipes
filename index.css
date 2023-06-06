@@ -1,5 +1,7 @@
-.NavContainer{
-   
+.logo h5{
+   display: block;
+   font-size: small;
+   text-align: center;
 }
 
 .cardImg {
@@ -15,10 +17,6 @@
     display: block;
     
 }
-.background{
-    
-}
-
 .CardGroups{
   padding: 2.5%;
 

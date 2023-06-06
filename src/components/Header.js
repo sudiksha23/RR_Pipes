@@ -8,15 +8,15 @@ const Header = () => {
     return (
        
       <Navbar bg="light" variant="light" >
-        <Container className="NavContainer">
-          <Navbar.Brand href="#home">
+        <Container className99="NavContainer">
+          <Navbar.Brand href="home" className='logo'>
             <img
                 src={LOGO_URL}
                 width="100"
                 height="100"
                 
                 />{'   '}
-                
+               <h5> ISO 9001:2015 Certified Company</h5>
             </Navbar.Brand>
           <Nav variant="tabs" defaultActiveKey="#home">
             <Nav.Link href="home">Home</Nav.Link>
