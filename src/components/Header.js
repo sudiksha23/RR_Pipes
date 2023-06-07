@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { LOGO_URL } from '../utils/constants';
-
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -18,10 +18,11 @@ const Header = () => {
                 />{'   '}
                <h5> ISO 9001:2015 Certified Company</h5>
             </Navbar.Brand>
-          <Nav variant="tabs" defaultActiveKey="#home">
-            <Nav.Link href="home">Home</Nav.Link>
-            <Nav.Link href="products">Products</Nav.Link>
-            <Nav.Link href="enquiry">Enquiry</Nav.Link>
+          <Nav variant="tabs" defaultActiveKey="home" >
+            <Nav.Link><Link className='LinkStyle' to="home">Home </Link></Nav.Link>
+            <Nav.Link><Link className='LinkStyle' to="products">products </Link></Nav.Link>
+            <Nav.Link><Link className='LinkStyle' to="Enquiry">Enquiry </Link></Nav.Link>
+          
            
           </Nav>
          

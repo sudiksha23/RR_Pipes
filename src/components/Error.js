@@ -8,7 +8,7 @@ const Error = () => {
             <img src="https://media1.giphy.com/media/OmK8lulOMQ9XO/giphy.gif?cid=ecf05e470gso5ws274jl1o4x4hpx1kz16m0mmvvweg3yvgar&ep=v1_gifs_search&rid=giphy.gif&ct=g"/>
             
             <a href="http://localhost:1234/home"> Get back on track !</a>
-            </div>
+            </div> 
         </div>
     )
     

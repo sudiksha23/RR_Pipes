@@ -8,18 +8,12 @@ import {
     MDBListGroupItem,
     MDBRow,
     MDBCol,
-    MDBInput,
-    MDBBtn
   } from 'mdb-react-ui-kit';
   import Button from 'react-bootstrap/Button';
-import DropdownButton from 'react-bootstrap/DropdownButton';
-import Dropdown from 'react-bootstrap/Dropdown';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import {BsSearch} from "react-icons/bs"
   import PipeObj from '../utils/mockData';
 import { useEffect, useState } from 'react';
-import Header from './Header';
-import Footer from './Footer';
 
 const IndividualCard = (props) => {
     const {pipeData}=props;
@@ -54,7 +48,6 @@ const Product = () => {
     console.log(searchText + " Rendered "+ pipeList.length + " pipelistLength")
     return (
         <>
-            <Header/>
         <div>
             <ButtonGroup className="ButtonGroup">
                 <Button variant='info'
@@ -120,7 +113,6 @@ const Product = () => {
                     
                 }
             </MDBRow>
-            <Footer/>
         </>
       );
 }

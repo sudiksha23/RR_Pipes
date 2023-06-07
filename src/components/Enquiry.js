@@ -4,8 +4,6 @@ import Footer from "./Footer"
 const Enquiry = () => {
     return (
         <>
-            <Header/>
-            <Footer/>
         </>
     )
 } 

@@ -3,7 +3,11 @@
    font-size: small;
    text-align: center;
 }
-
+.LinkStyle{
+    text-decoration: none;
+    color: #5A5A5A;
+    
+}
 .cardImg {
     padding: 1%;
     opacity: 0.4; 
