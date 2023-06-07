@@ -102,11 +102,11 @@ const Product = () => {
             <Button size='sm' variant='light'
                 onClick={() => {
                     const filteredPipeList = tempPipeList.filter((filterPipe) => 
-                        (filterPipe.category.includes(searchText) || 
-                        filterPipe.name.includes(searchText) || 
-                        filterPipe.desc.includes(searchText) || 
-                        filterPipe.class.includes(searchText) || 
-                        filterPipe.size.includes(searchText))
+                        (filterPipe.category.toLowerCase().includes(searchText.toLowerCase()) || 
+                        filterPipe.name.toLowerCase().includes(searchText.toLowerCase()) || 
+                        filterPipe.desc.toLowerCase().includes(searchText.toLowerCase()) || 
+                        filterPipe.class.toLowerCase().includes(searchText.toLowerCase()) || 
+                        filterPipe.size.toLowerCase().includes(searchText.toLowerCase()))
                     )
                     setPipeList(filteredPipeList)
                 }}
